@@ -1,0 +1,69 @@
+@media(max-width: 1200px){
+	.col__right  { right: 0; top: 50px;   }
+	.col__right.animate  { top: 0;  }
+}
+@media(max-width: 992px){
+	.shell { padding: 0 20px; }
+
+	
+
+	.col__left { left: 0; top: 50px;  }
+	
+
+	.col__top { bottom: 0; top: 50px;  }
+	.col__bottom.animate,
+	
+	.col__left.animate,  
+	.col__right.animate,  
+	.col__top.animate  { top: 0;  }
+}
+
+
+@media(max-width: 767px){
+	body { font-size: 14px; }
+	.intro p br { display: none; }
+	.intro .intro__inner { padding: 40px 20px 163px; }
+	.intro .author__slogan { font-size: 16px; }
+	.col__1of2 { width: 100%; float: none; }
+	.section__about .section__image img { margin-left: 0; }
+	.section__about .section__head { margin-bottom: 20px; }
+	.section__about h2 { padding-bottom: 30px; }
+	.section__about .section__inner { padding-top: 30px; }
+	.list__projects li { width: 100%; float: none; margin-right: 0; }
+	.list__projects { padding: 0 70px; }
+	.form__contacts .textarea,
+	.form__contacts .field { width: 100%; }
+	.form__actions .btn { padding: 10px 30px 12px;}
+	h2 { font-size: 30px; }
+	.section__contacts { padding: 40px 0 130px; }
+	
+}
+
+@media(max-width: 570px){
+	.header { padding-bottom: 13px; }
+	.nav-trigger  { display: block; }
+	.header .socials { float: left; padding-top: 17px; position: relative; z-index: 20;  }
+	.nav { position: fixed; top: 0; left: 0; width: 0; overflow: hidden; padding-top: 50px; background-color: #000; height: 70%; z-index: 10;  }
+	.nav li { float: none; text-align: center; opacity: 0; 
+	-webkit-transition: all .5s; 
+	     -o-transition: all .5s; 
+	        transition: all .5s;  
+	}
+
+	.intro { background-position: -143px 5px; }
+	.intro .intro__inner { padding: 20px 20px 182px;}
+	.btn__scroll__top { width: 32px; height: 32px; -webkit-background-size: cover; background-size: contain; }
+	.list__projects { padding: 0 30px; }	
+	.list__projects  li { height: 247px;  }	
+	body { font-size: 13px; }
+}
+
+@media(max-width: 360px){
+	.section__about .section__image img {
+	-webkit-transform: rotate(-10deg); 
+	    -ms-transform: rotate(-10deg); 
+	     -o-transform: rotate(-10deg); 
+	        transform: rotate(-10deg); }
+	.list__projects  li { height: 200px;  }		
+	.list__links { font-size: 13px; }
+}

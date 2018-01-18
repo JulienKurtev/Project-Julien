@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Alisandra';
+  src: url('fonts/Alisandra Demo.eot');
+  src: url('fonts/Alisandra Demo.woff2') format('woff2'),
+       url('fonts/Alisandra Demo.eot?#iefix') format('embedded-opentype');
+  
+  src: url('fonts/AlisandraDemo.woff') format('woff'),
+       url('fonts/AlisandraDemo.ttf') format('truetype'),
+       url('fonts/AlisandraDemo.svg#AlisandraDemo') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Franklin';
+  src: url('fonts/Franklin Gothic Demi Cond Regular.eot');
+  src: url('fonts/Franklin Gothic Demi Cond Regular.woff2') format('woff2'),
+       url('fonts/Franklin Gothic Demi Cond Regular.eot?#iefix') format('embedded-opentype');
+
+  font-family: 'Franklin';
+  src: url('fonts/FranklinGothic-DemiCond.woff') format('woff'),
+       url('fonts/FranklinGothic-DemiCond.ttf') format('truetype'),
+       url('fonts/FranklinGothic-DemiCond.svg#FranklinGothic-DemiCond') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
